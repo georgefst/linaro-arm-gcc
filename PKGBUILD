@@ -1,10 +1,11 @@
 # Maintainer: curlywei <dewei0724@gmail.com>
 
-_target=arm-none-linux-gnueabihf
-_pkgdate=2021.07
+_target=arm-linux-gnueabihf
+_pkgdate=2019.03
 _compiler_name=gcc-arm
 
 pkgname=${_target}-${_compiler_name}-bin
+pkgver=8.3
 pkgrel=0
 pkgdesc="The GNU Compiler Collection- cross compiler for ARMv7 EABI hard float target. (Linaro)"
 arch=('x86_64')
@@ -23,7 +24,7 @@ options=(!emptydirs !strip staticlibs)
 install=
 changelog=
 source=(${url}/${pkgver}-${_pkgdate}/binrel/${_compiler_name}-${pkgver}-${_pkgdate}-${arch}-${_target}.tar.xz)
-sha512sums=('f161c7eeb58a3c6989093ab0a1ba5377464e47eae87aacb6289748ad323595b9bb76e96386305b0f0561545a6f14d4d15af0e90c2d0e993952a62f12746b6fd1')
+sha512sums=('3578c32a9c0868d98264a1c9200b673aa89d9b97514322d40e175e079525f00beb2ca8efeb029656f9df7cfb2149715939c4097b2b3d2e3afa6ff6a4e91e0010')
 
 
 package() {

@@ -1,4 +1,6 @@
 arm-none-linux-gnueabihf-gcc-arm-bin-*.pkg.tar.zst
 *-arm-none-linux-gnueabihf.tar.xz
+arm-linux-gnueabihf-gcc-arm-bin-*.pkg.tar.zst
+*-arm-linux-gnueabihf.tar.xz
 pkg
 src
