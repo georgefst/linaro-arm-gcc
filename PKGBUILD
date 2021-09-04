@@ -5,6 +5,7 @@ _pkgdate=2021.07
 _compiler_name=gcc-arm
 
 pkgname=${_target}-${_compiler_name}-bin
+pkgver=10.3
 pkgrel=0
 pkgdesc="The GNU Compiler Collection- cross compiler for ARMv7 EABI hard float target. (Linaro)"
 arch=('x86_64')
